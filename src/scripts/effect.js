@@ -142,50 +142,50 @@ $('document').ready(function(){
 		 mid = $(window).height()/2;
 
 		 mid_diff = mid/12;
-		 vw_diff = vw/12;
-		$('#self').css({"display": "block", "bottom":'0px',"left":vw+'px'});
+		 vw_diff = vw/8;
+		$('#self').css({"display": "block"});
 		$('#self').animate({top:mid-mid_diff*4,left:vw},3000);
 
-		$('#f1').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
+		$('#f1').css({"display": "block"});
 		$('#f1').animate({top:mid-mid_diff*3,left:vw-vw_diff*3},3000);
 
 
-		$('#f2').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
+		$('#f2').css({"display": "block"});
 		$('#f2').animate({top:mid-mid_diff*3,left:vw+vw_diff*3},3000);
 
 
-		$('#f3').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
+		$('#f3').css({"display": "block"});
 		$('#f3').animate({top:mid-mid_diff*2,left:vw-vw_diff*4},3000);
 
-		$('#f4').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
+		$('#f4').css({"display": "block"});
 		$('#f4').animate({top:mid-mid_diff*2,left:vw+vw_diff*4},3000);
 
-		$('#f5').css({"display": "block", "top":500*Math.random()+'px',"right":'0px'});
+		$('#f5').css({"display": "block"});
 		$('#f5').animate({top:mid-mid_diff,left:vw+vw_diff*5},3000);
 
-		$('#f6').css({"display": "block", "top":500*Math.random()+'px',"right":'0px'});
+		$('#f6').css({"display": "block",});
 		$('#f6').animate({top:mid-mid_diff,left:vw-vw_diff*5},3000);
 
-		$('#f7').css({"display": "block", "top":500*Math.random()+'px',"right":'0px'});
+		$('#f7').css({"display": "block",});
 		$('#f7').animate({top:mid,left:vw-vw_diff*6},3000);
 
 
-		$('#f8').css({"display": "block", "top":500*Math.random()+'px',"right":'0px'});
+		$('#f8').css({"display": "block",});
 		$('#f8').animate({top:mid,left:vw+vw_diff*6},3000);
 
 
-		$('#f9').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
+		$('#f9').css({"display": "block"});
 		$('#f9').animate({top:mid+mid_diff*3,left:vw+vw_diff*2},3000);
 
-		$('#f10').css({"display": "block", "top":500*Math.random()+'px',"right":'0px'});
+		$('#f10').css({"display": "block",});
 		$('#f10').animate({top:mid+mid_diff,left:vw-vw_diff*7},3000);
 
 
-		$('#f11').css({"display": "block", "top":500*Math.random()+'px',"right":'0px'});
+		$('#f11').css({"display": "block",});
 		$('#f11').animate({top:mid+mid_diff,left:vw+vw_diff*7},3000);
 
 
-		$('#f12').css({"display": "block", "top":500*Math.random()+'px',"left":'0px'});
+		$('#f12').css({"display": "block"});
 		$('#f12').animate({top:mid+mid_diff*3,left:vw-vw_diff*4},3000);
 
 
